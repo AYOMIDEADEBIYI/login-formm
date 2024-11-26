@@ -7,6 +7,7 @@
 :root {
     --primary-color: #814ce3cc;
     --secondary-color: #c1318ecc;
+    --border-color: rgba(232, 92, 92, 0.692);
 
 }
 
@@ -53,6 +54,8 @@ input {
 
 button {
     background: linear-gradient(111.88deg, var(--primary-color), var(--secondary-color) 83.64%);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     color: white;
     padding: 8px;
@@ -76,19 +79,19 @@ i {
     cursor: pointer;
 }
 
-.facebook {
+.bxl-facebook {
     background-color: rgb(86, 19, 211);
     padding: 5px;
     border-radius: 30px;
 }
 
-.twitter {
+.bxl-twitter {
     background-color: rgb(98, 34, 201);
     padding: 5px;
     border-radius: 30px;
 }
 
-.google {
+.bxl-google {
     background-color: rgb(231, 56, 85);
     padding: 5px;
     border-radius: 30px;
